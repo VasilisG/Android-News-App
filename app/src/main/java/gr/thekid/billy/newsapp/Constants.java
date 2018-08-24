@@ -6,7 +6,7 @@ public class Constants {
     public static final String REPOSITORY_URL = "";
     public static final String SHARE_MESSAGE = "Share via";
 
-    public static final String API_KEY = "c99899fbec024dc18d4092ac19b4285f";
+    public static final String API_KEY = "";
     public static final String NEWS_SOURCES_URL = "https://newsapi.org/v2/sources?apiKey=";
     public static final String TOP_HEADLINES_URL = "https://newsapi.org/v2/top-headlines?";
 
