@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/browseHeadlinesItem"
+        android:title="Browse headlines"
+        ></item>
+
+    <item
+        android:id="@+id/addToFavouritesItem"
+        android:title="Add to favourites"
+        ></item>
+
+    <item
+        android:id="@+id/removeFromFavouritesItem"
+        android:title="Remove from favourites"
+        ></item>
+
+</menu>

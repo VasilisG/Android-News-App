@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/newsSourceLayout"
+    tools:context=".NewsSourcesActivity">
+
+
+    <ListView
+       android:id="@+id/newsSourceListView"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:background="@drawable/android_background"
+       android:divider="@android:color/transparent"
+       android:dividerHeight="10sp">
+    </ListView>
+
+    <TextView
+        android:id="@+id/noNewsSourceToDisplayView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:background="@drawable/android_background"
+        android:text="@string/noSourcesText"
+        android:visibility="invisible"/>
+
+</RelativeLayout>

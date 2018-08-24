@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Twinkle</string>
+    <string name="viewSourcesButton">View Sources</string>
+    <string name="recentlyViewedButton">Recently Viewed</string>
+
+    <!-- Activity main -->
+    <string name="logoDescription"> Twinkle logo </string>
+    <string name="motto"> The world\'s latest news in your hands.</string>
+
+    <!-- Activity news sources -->
+    <string name="noSourcesText"> No news sources to display. </string>
+
+    <!-- Custom category row -->
+    <string name="categoryImageDescription"> Category icon </string>
+
+    <!-- Custom country row -->
+    <string name="countryImageDescription"> Country icon </string>
+
+    <!-- Custom headline row -->
+    <string name="headlineImageDescription"> Headline icon </string>
+
+    <!-- Custom news sources row -->
+    <string name="newsSourceImageDescription"> News source icon </string>
+    <string name="favouriteSourceImageDescription"> Favourite source icon </string>
+
+    <!-- Activity recently viewed -->
+    <string name="noRecentlyViewedHeadlines"> There are no recent headlines. </string>
+</resources>

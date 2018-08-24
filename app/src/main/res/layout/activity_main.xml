@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/android_background"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:weightSum="2"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="32dp" />
+
+        <ImageView
+            android:id="@+id/logoImageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/twinkle_logo" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textColor="@color/myYellow"
+            android:text="@string/motto"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/viewSourcesButton"
+            android:layout_width="320dp"
+            android:layout_height="48dp"
+            android:layout_marginBottom="32dp"
+            android:background="@drawable/button_gradient_color"
+            android:onClick="showSources"
+            android:text="@string/viewSourcesButton"
+            android:textColor="@color/buttonTextColor"
+            android:textStyle="bold"
+            />
+
+        <Button
+            android:id="@+id/recentlyViewedButton"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/viewSourcesButton"
+            android:background="@drawable/button_gradient_color"
+            android:onClick="showRecentlyViewed"
+            android:text="@string/recentlyViewedButton"
+            android:textColor="@color/buttonTextColor"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</LinearLayout>

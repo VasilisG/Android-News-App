@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:compat="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/searchSourceItem"
+        android:title="Search news source"
+        android:icon="@drawable/ic_search_sources"
+        compat:showAsAction="always"
+        compat:actionViewClass="android.widget.SearchView"
+        ></item>
+
+    <item
+        android:id="@+id/allItem"
+        android:title="All"
+        compat:showAsAction="never"/>
+    <item
+        android:id="@+id/categoryItem"
+        android:title="Category"
+        compat:showAsAction="never"/>
+
+    <item
+        android:id="@+id/countryItem"
+        android:title="Country"
+        compat:showAsAction="never"/>
+
+    <item
+        android:id="@+id/languageItem"
+        android:title="Language"
+        compat:showAsAction="never"/>
+
+    <item
+        android:id="@+id/favouriteItem"
+        android:title="Favourites"
+        compat:showAsAction="never"/>
+
+</menu>
