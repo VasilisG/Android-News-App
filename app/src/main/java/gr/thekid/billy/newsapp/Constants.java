@@ -3,7 +3,7 @@ package gr.thekid.billy.newsapp;
 public class Constants {
 
     public static final String SUBJECT = "SUBJECT";
-    public static final String REPOSITORY_URL = "";
+    public static final String REPOSITORY_URL = "https://github.com/VasilisG/Android-News-App";
     public static final String SHARE_MESSAGE = "Share via";
 
     public static final String API_KEY = "";
