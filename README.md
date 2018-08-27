@@ -10,3 +10,7 @@ It uses the [News API](https://newsapi.org/) to retrieve and extract news source
 - The ability to mark and store your favourite news sources in order to keep them separately from the other and access them more easily.
 - Automatically saving the 10 more recently viewed headlines.
 - Option to share this app.
+
+## Screenshots
+
+![alt text](https://github.com/VasilisG/Android-News-App/blob/master/Screenshots/Twinkle_screenshot_1.png) ![alt text](https://github.com/VasilisG/Android-News-App/blob/master/Screenshots/Twinkle_screenshot_2.png) ![alt text](https://github.com/VasilisG/Android-News-App/blob/master/Screenshots/Twinkle_screenshot_3.png) ![alt text](https://github.com/VasilisG/Android-News-App/blob/master/Screenshots/Twinkle_screenshot_4.png)
